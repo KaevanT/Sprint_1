@@ -1,0 +1,34 @@
+{
+  sebas: {
+    nombre: "Sebastian",
+    foto: "./imangenSebas",
+    ocupacion: "Estudiante de Ingeneria en Control del Politecnico Jaime Isaza Cadavid en Medellin",
+    edad: "25",
+    pasatiempo: "Me gusta jugar ajedrez",
+    
+  },
+  ruben: {
+    nombre: "Ruben",
+    foto: "./imangenRuben",
+    ocupacion: "Ingeniería de Petróleos",
+    edad: "33",
+    pasatiempo: "Me gusta montar cicla",
+    
+  },
+  estefania: {
+    nombre: "Estefania",
+    foto: "./imangenEstefania",
+    ocupacion: "Estudiante de Ingenería de sistemas",
+    edad: "19",
+    pasatiempo: "Me gusta dibujar",
+    
+  },
+  alejo: {
+    nombre: "Alejandro",
+    foto: "./imangenAlejo",
+    ocupacion: "Estudiante de ingeniería industrial en la universidad de Antioquia",
+    edad: "19",
+    pasatiempo: "Soy jugador de Baloncesto",
+    
+  }
+}
