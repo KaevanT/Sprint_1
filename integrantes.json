@@ -1,34 +1,30 @@
-{
-  sebas: {
-    nombre: "Sebastian",
-    foto: "./imangenSebas",
-    ocupacion: "Estudiante de Ingeneria en Control del Politecnico Jaime Isaza Cadavid en Medellin",
-    edad: "25",
-    pasatiempo: "Me gusta jugar ajedrez",
-    
+[
+  {
+    "nombre": "Sebastian",
+    "foto": "./imagenSebas.jpg",
+    "ocupacion": "estudiante de Ingeneria en Control del Politecnico Jaime Isaza Cadavid en Medellin",
+    "edad": "25",
+    "pasatiempo": "me gusta jugar ajedrez"
   },
-  ruben: {
-    nombre: "Ruben",
-    foto: "./imangenRuben",
-    ocupacion: "Ingeniería de Petróleos",
-    edad: "33",
-    pasatiempo: "Me gusta montar cicla",
-    
+  {
+    "nombre": "Ruben",
+    "foto": "./imagenRuben.jpg",
+    "ocupacion": "estudie Ingeniería de Petróleos",
+    "edad": "33",
+    "pasatiempo": "me gusta montar cicla"
   },
-  estefania: {
-    nombre: "Estefania",
-    foto: "./imangenEstefania",
-    ocupacion: "Estudiante de Ingenería de sistemas",
-    edad: "19",
-    pasatiempo: "Me gusta dibujar",
-    
+  {
+    "nombre": "Estefania",
+    "foto": "./imagenEstefania.jpg",
+    "ocupacion": "estudiante de Ingenería de sistemas",
+    "edad": "19",
+    "pasatiempo": "me gusta dibujar"
   },
-  alejo: {
-    nombre: "Alejandro",
-    foto: "./imangenAlejo",
-    ocupacion: "Estudiante de ingeniería industrial en la universidad de Antioquia",
-    edad: "19",
-    pasatiempo: "Soy jugador de Baloncesto",
-    
+  {
+    "nombre": "Alejandro",
+    "foto": "./imagenAlejo.jpg",
+    "ocupacion": "estudiante de ingeniería industrial en la universidad de Antioquia",
+    "edad": "19",
+    "pasatiempo": "soy jugador de Baloncesto"
   }
-}
+]
