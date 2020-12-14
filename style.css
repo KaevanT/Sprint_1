@@ -8,7 +8,7 @@ body{
     background-color: #888888;
     height: 2000px;
     -ms-flex-item-align: center;
-        align-self: center;
+    align-self: center;
     margin: 0px auto;
     padding: 0 auto;
 }
@@ -16,7 +16,6 @@ body{
 .header{
     background-color: aqua;
     height: auto;
-    
 }
 
 .container-menu{
@@ -84,6 +83,10 @@ body{
 }
 
 .section-3{
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-around;
+    align-items: center;
     height: 500px;
     background-color: coral;
 }
@@ -97,7 +100,7 @@ body{
 }
 
 .section-text{
-    margin: 0;
+    margin: 10;
     color: #3e3e3e;
     background: white;
     font-weight: bold;
@@ -113,12 +116,32 @@ body{
     margin-top: 5px;
     text-align: center;
 }
-.col-5{
-    width: 19%;
+
+.col-4{
+    width: 23%;
     height: 470px;
+    font-size: 0;
     display: inline-block;
-    margin: 5px 4px 0;
+    padding-right: 0.5%;
+    padding-top: 1%;
     text-align: center;
+    background-repeat: no-repeat;
+    background-repeat: round;
+    background-size: contain;
+    background-color: rgb(255, 177, 148);
+}
+
+.col-4:hover{
+    width: 23%;
+    height: 470px;
+    font-size: 18px;
+    display: inline-table;
+    padding-right: 0.5%;
+    padding-top: 1%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-repeat: round;
+    background-size: contain;
     background-color: rgb(255, 177, 148);
 }
 

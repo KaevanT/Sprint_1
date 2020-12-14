@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Workshop 1</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 
 <body>
@@ -164,91 +163,23 @@
             </div>
 
         </div>
-
-        <div class="section-3">
-            <p class="section-text">Section 3</p>
-            <div class="col-5">
-                    <p>
-    
-                        <i class="fas fa-ambulance" style="font-size:150px"></i>
+        <p class="section-text">INTEGRANTES</p>
+        
+        <div id="app3" class="section-3">
+            
+            <!-- <div class="col-4" v-for="integrante of integrantes" :key="integrante.id" v-bind:style="{ 'background-image': 'url(' + integrante.foto + ')'}"> -->
+            <div class="col-4" v-for="integrante of integrantes" :key="integrante.id">
+                
+                <img :src="integrante.foto" width="80%" height="50%">
+                <div class="service-content">
+                    <h2>
+                        {{integrante.nombre}}
+                    </h2>
+                    <p class="service-text memebers">
+                        Soy {{integrante.ocupacion}} y mi pasatiempo favorito y {{integrante.pasatiempo}}
                     </p>
-                    <div class="service-content">
-    
-                        <h2>
-                            Daniel Duque
-                        </h2>
-                        <p class="service-text memebers">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste corporis odio reiciendis molestias commodi cumque earum, voluptates
-                            autem, velit quidem enim. Distinctio soluta culpa esse ad illo deleniti id dignissimos!
-                        </p>
-                    </div>
                 </div>
-            <div class="col-5">
-                    <p>
-    
-                        <i class="fas fa-ambulance" style="font-size:150px"></i>
-                    </p>
-                    <div class="service-content">
-    
-                        <h2>
-                            Daniel Duque
-                        </h2>
-                        <p class="service-text memebers">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste corporis odio reiciendis molestias commodi cumque earum, voluptates
-                            autem, velit quidem enim. Distinctio soluta culpa esse ad illo deleniti id dignissimos!
-                        </p>
-                    </div>
-                </div>
-            <div class="col-5">
-                    <p>
-    
-                        <i class="fas fa-ambulance" style="font-size:150px"></i>
-                    </p>
-                    <div class="service-content">
-    
-                        <h2>
-                            Daniel Duque
-                        </h2>
-                        <p class="service-text memebers">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste corporis odio reiciendis molestias commodi cumque earum, voluptates
-                            autem, velit quidem enim. Distinctio soluta culpa esse ad illo deleniti id dignissimos!
-                        </p>
-                    </div>
-                </div>
-            <div class="col-5">
-                    <p>
-    
-                        <i class="fas fa-ambulance" style="font-size:150px"></i>
-                    </p>
-                    <div class="service-content">
-    
-                        <h2>
-                            Daniel Duque
-                        </h2>
-                        <p class="service-text memebers">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste corporis odio reiciendis molestias commodi cumque earum, voluptates
-                            autem, velit quidem enim. Distinctio soluta culpa esse ad illo deleniti id dignissimos!
-                        </p>
-                    </div>
-                </div>
-            <div class="col-5">
-                    <p>
-    
-                        <i class="fas fa-ambulance" style="font-size:150px"></i>
-                    </p>
-                    <div class="service-content">
-    
-                        <h2>
-                            Daniel Duque
-                        </h2>
-                        <p class="service-text memebers">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste corporis odio reiciendis molestias commodi cumque earum, voluptates
-                            autem, velit quidem enim. Distinctio soluta culpa esse ad illo deleniti id dignissimos!
-                        </p>
-                    </div>
-                </div>
-
-
+            </div>  
         </div>
 
         <footer class="footer">
@@ -257,7 +188,9 @@
 
     </div>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="app3.js"></script>
 
 </body>
 
